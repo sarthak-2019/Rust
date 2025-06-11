@@ -11,15 +11,15 @@
 // * Use the println macro to display messages to the terminal
 
 
-fn main(){
-    let my_bool = false;
+// fn main(){
+//     let my_bool = false;
 
-    if my_bool==true{
-        println!("hello")
-    }else{
-        println!("goodbye")
-    }
-}
+//     if my_bool==true{
+//         println!("hello")
+//     }else{
+//         println!("goodbye")
+//     }
+// }
 
 
 // Topic: Flow control using if..else if..else
@@ -34,7 +34,7 @@ fn main(){
 // * Use the println macro to display messages to the terminal
 
 fn main() {
-    let n = 7;
+    let n:i32 = 7;
     if n > 5 {
         println!(">5");
     } else if n < 5 {
